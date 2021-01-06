@@ -5,7 +5,7 @@ first run the file (wich is the server)
 go run main.go
 ```
 
-there is two routes there
+there is two routes there  
 /products => wich is a GET route, that will return the products  
 /create => wich is a POST route, it will create a product; the data is stored in memory no DB is used.
 
