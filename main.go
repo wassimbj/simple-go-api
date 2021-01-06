@@ -52,7 +52,7 @@ func main() {
 
 	mux.HandleFunc("/products", getProducts) // GET
 
-	mux.HandleFunc("/create", createProduct) // GET
+	mux.HandleFunc("/create", createProduct) // POST
 
 	// init server
 	handler := cors.Default().Handler(mux)
