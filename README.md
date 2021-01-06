@@ -19,7 +19,9 @@ and
 ```bash
 curl -X POST --data "{ \"name\": \"Iphone\", \"price\": 999}" http://localhost:1234/create
 ```
-to create a products, it just append the data to the slice.
+to create a product, it just append the data to the slice.
 
 
-this is just for learning purpose.
+
+
+**this is just for learning purpose.**
